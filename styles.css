@@ -1,0 +1,18 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h2 {
+    background-color: skyblue;
+    font-size: 24px;
+    font-family: Arial Black;
+    text-align: center;
+}
+
+h4 {
+ text-align: center;
+ background-color: lightsteelblue;
+ font-family: arial;
+}
+

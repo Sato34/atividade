@@ -1,0 +1,53 @@
+    /* Estilos para o corpo do documento */
+    body {
+        font-family: Arial, sans-serif; /* Fonte texto */
+        color: #333; 
+        line-height: 1.2; /* Espaçamento entre linhas para melhor legibilidade */
+    }
+
+    h2 {
+        color: dimgrey; /* Cor do título */
+        border: solid 2px #363636;  /* Borda do título */
+        border-radius: 15px; /* Borda arredondada */
+        padding: 15px; /* Espaçamento interno */
+        max-width: 800px; /* Largura máxima do título */
+        margin: 20px auto; /* Centraliza o título na página */
+        text-align: center; /* Centraliza o título */
+    }
+
+    h3 {
+        color: black; /* Cor para subtítulos */
+        font-size: 20px; /* Tamanho para subtítulos */
+        margin: 20px auto; /* Centraliza o subtítulo na página */
+        text-align: center; /* Centraliza o subtítulo */
+        border-bottom: 1px solid #ccc; /* Linha na parte inferior do título */
+        font-style: italic;
+    }
+
+    p {
+        color: black; /* Cor para texto */
+        font-size: 16px; /* Tamanho para texto */
+        margin: 10px auto; /* Centraliza o texto na página */
+        max-width: 800px; /* Largura máxima para o texto */
+    }
+
+    strong {
+        font-weight: bold; /* Estilo para textos em negrito */
+    }
+
+/* Estilos específicos para seções */
+.experiencia {
+    margin-bottom: 20px; /* Espaçamento extra abaixo de cada experiência */
+}
+/* Estilos específicos para impressão */
+@media print {
+    .btn-print {
+        display: none; /* Oculta o botão de impressão na versão impressa */
+    }
+
+    body {
+        max-width: 800px; /* Limita a largura do conteúdo na impressão */
+        margin: auto; /* Centraliza o conteúdo na página ao imprimir */
+    }
+}
+
